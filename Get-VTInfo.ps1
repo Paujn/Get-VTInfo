@@ -131,9 +131,9 @@ if($Type -like "IP"){
 
 # Print results
 if(!$all){
-$Global:table | Sort-Object Malicious -Descending | Where-Object {$_.Malicious -ne 0 -or $_.Suspicious -ne 0} | FT
+    $Global:table | Sort-Object Malicious -Descending | Where-Object {$_.Malicious -ne 0 -or $_.Suspicious -ne 0} | FT
 }else{
-$Global:table | Sort-Object Malicious -Descending | FT
+    $Global:table | Sort-Object Malicious -Descending | FT
 }
 
 # Export
