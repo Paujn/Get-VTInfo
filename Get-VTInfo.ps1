@@ -139,4 +139,4 @@ if(!$all){
 # Export
 if($Export){$global:table | Export-CSV -Path $Export}
 
-if($v){Write-Host "Results exported to $Export" -ForegroundColor Cyan}
+if($v -and $Export){Write-Host "Results exported to $Export" -ForegroundColor Cyan}
