@@ -17,7 +17,7 @@
 .PARAMETER Path
     CSV source path.
 .PARAMETER Column
-    CSV Column Name
+    CSV Column Name.
 .PARAMETER Type
     Type of request. (IP or Domain)
 .PARAMETER API
