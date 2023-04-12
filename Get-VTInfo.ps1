@@ -4,7 +4,7 @@
 .AUTHOR Sheyk
 .COPYRIGHT 2023 Pau Juan Nieto
 .TAGS Get VirusTotal Information
-.LICENSEURI 
+.LICENSEURI https://raw.githubusercontent.com/Paujn/Get-VTInfo/main/LICENSE
 .EXTERNALMODULEDEPENDENCIES VirusTotalAnalyzer (https://github.com/EvotecIT/VirusTotalAnalyzer)
 .RELEASENOTES Initial Release
 #>
@@ -32,6 +32,8 @@
     Get-VTInfo.ps1 -Source "C:\temp\ips.csv" -Column IPADDRESS -Type IP -API 693139e6d61c0b42806d5304f6382064964e64d433278b2d26e2834a72b014f9
 .EXAMPLE
     Get-VTInfo.ps1 -Source "C:\temp\domains.csv" -Column DOMAINS -Type Domain -API 693139e6d61c0b42806d5304f6382064964e64d433278b2d26e2834a72b014f9 -all -Export C:\temp\result.csv
+.LINK
+    https://github.com/Paujn/Get-VTInfo
 .NOTES
     Author: Pau Juan Nieto
 #> 
