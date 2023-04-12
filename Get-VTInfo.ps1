@@ -62,6 +62,8 @@ Param(
     [switch]$v
 )
 
+$ErrorActionPreference = 'Stop'
+
 # Load Modules
 
 Import-Module VirusTotalAnalyzer -Force
